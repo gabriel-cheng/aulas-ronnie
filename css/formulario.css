@@ -1,0 +1,43 @@
+label {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+input[type=text], [type=email], [type=tel] { /* Seleciona um tipo específico de input (serve pra qualquer tag) */
+    width: 100%;
+    padding: 5px;
+}
+
+select {
+    width: 30%;
+    padding: 5px;
+}
+
+.row {
+    margin-bottom: 6px;
+}
+
+input[type=reset], [type=submit] {
+    padding: 8px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #172026;
+    color: white;
+    border: 0;
+}
+
+.inputfile + label {
+    background: #027373;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+input[type=file] {
+    display: none;
+}
+
+input[type=password] {
+    padding: 5px; 
+}
