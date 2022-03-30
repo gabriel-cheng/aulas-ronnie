@@ -1,6 +1,6 @@
 <?php
     // Verificando se o envio foi pelo método POST
-    if($_SERVER['REQUEST_METHOD']) {
+    if($_SERVER['REQUEST_METHOD']=='POST') {
         // Diretório que será armazenada todas as imagens enviadas pelo usuário
         $dirImagens = "./imagens/";
 
